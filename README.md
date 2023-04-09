@@ -3,7 +3,7 @@
 ## Introduction:
 
 8 puzzle is a puzzle game with 8 tiles in a 3 x 3 grid. 1 tile is empty space which is used to move the tiles around.
-The goal of this game is to move the tiles in such a way to arrange then in increasing order starting from top right.
+The goal of this game is to move the tiles in such a way to arrange then in increasing order starting from top left.
 Like the pattern below.
 
 | 1   | 2   | 3   |
