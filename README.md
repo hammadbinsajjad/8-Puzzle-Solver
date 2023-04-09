@@ -6,11 +6,10 @@
 The goal of this game is to move the tiles in such a way to arrange then in increasing order starting from top right.
 Like the pattern below.
 
-1 2 3
-
-4 5 6
-
-7 8 0
+| 1   | 2   | 3   |
+|-----|-----|-----|
+| 4   | 5   | 6   |
+| 7   | 8   | 0   |
 
 ## Algorithms:
 
@@ -27,7 +26,7 @@ limit than the search has failed.
 deeper in every iteration. 
 
 Using both these algorithms prevents creating a entire tree to perform DFS on it which can become a problem for cases 
-the tree can grow to large depths.
+where the tree can grow to large depths.
 
 ## Method:
 The pseudocode for the algorithm (coded in Python) is as follows
